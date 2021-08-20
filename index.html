@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <header class="header">
+
+            <div class="header__block">
+                <nav class="navbar navbar-light header__nav" id="header__nav">
+                    <!-- Collapse button -->
+                    <button class="navbar-toggler first-button header__navbar-toggler" type="button"
+                        data-toggle="collapse" data-target="#navbarSupportedContent20"
+                        aria-controls="navbarSupportedContent20" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="animated-icon1"><span></span><span></span><span></span></div>
+                    </button>
+
+                    <!-- Collapsible content -->
+                    <div class="collapse navbar-collapse header__navbar-collapse" id="navbarSupportedContent20">
+                        <!-- Links -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">שדח<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HEBA COSMETICS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GAMESCAPE COLLECTION</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">HEALTHY GLOW</a>
+                            </li>
+                        </ul>
+                        <!-- Links -->
+                    </div>
+                    <!-- Collapsible content -->
+                </nav>
+
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="image/slider.svg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/slider.svg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="image/slider.svg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Предыдущий</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Следующий</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main__content row">
+                <span class="main__title col-lg-6 col-md-6 col-sm-6">?םוספיא םרול ,לאזעזעל ,הז המ</span>
+                <p class="main__text col-xl-6 col-lg-6 col-md-6 col-sm-6">וא טסקט ימד םג םימעפל ארקנה - ןיטולחל תועמשמ
+                    רסח טסקטל
+                    יוניכ אוה םוספיא
+                    םרול<br>
+                    ירתא ,תועדומ ,םיניזגמ ,םינולע לש - תויבוציע תוציקסב םקוממ תויהל דעוימו - שירבי'ג</p>
+                <a class="main__link dropdown-toggle" data-toggle="collapse" href="#collapseExample" role="button"
+                    aria-expanded="false" aria-controls="collapseExample">Read More</a>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Some placeholder content for the collapse component.
+                    </div>
+                </div>
+            </section>
+            <section class="main__products" id="main__products">
+            </section>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
