@@ -7,9 +7,11 @@ $(document).ready(function () {
 
     hnav.on('show.bs.collapse', '.collapse', function () {
         hnav.addClass('header__nav__full');
+        $('#navbarSupportedContent20').css('display', 'fles');
     });
     hnav.on('hide.bs.collapse', '.collapse', function () {
         hnav.removeClass('header__nav__full');
+        $('#navbarSupportedContent20').css('display', 'none');
     });
 });
 
